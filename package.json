@@ -1,0 +1,14 @@
+{
+  "name": "concert-ticketer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "check": "node --env-file-if-exists=.env src/index.js --once",
+    "test": "node --test",
+    "demo": "node test/demo.js"
+  },
+  "dependencies": { "cheerio": "1.1.2" }
+}

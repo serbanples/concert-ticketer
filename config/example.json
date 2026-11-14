@@ -1,0 +1,18 @@
+{
+  "eventId": "maluma-budapest-2027",
+  "discoveryUrl": "https://maluma.online/tour/",
+  "city": "Budapest",
+  "intervalSeconds": 300,
+  "maxBackoffSeconds": 3600,
+  "stateDirectory": "var",
+  "dryRun": true,
+  "purchase": {
+    "quantity": 2,
+    "category": "",
+    "currency": "HUF",
+    "maxTotalMinor": 0,
+    "customer": {},
+    "paymentMethodRef": ""
+  },
+  "seller": null
+}
